@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Masker</title>
+	<title>Shark Attack</title>
 	<style>
 		html,
 		body {
@@ -43,15 +43,15 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/sharks3.loader.js"></script>
+		<script src="Build/sharkIce.loader.js"></script>
 		<script>
 			createUnityInstance(document.querySelector("#unity-canvas"), {
-				dataUrl: "Build/sharks3.data",
-				frameworkUrl: "Build/sharks3.framework.js",
-				codeUrl: "Build/sharks3.wasm",
+				dataUrl: "Build/sharkIce.data",
+				frameworkUrl: "Build/sharkIce.framework.js",
+				codeUrl: "Build/sharkIce.wasm",
 				streamingAssetsUrl: "StreamingAssets",
-				companyName: "DefaultCompany",
-				productName: "Masker",
+				companyName: "Aurora Edutainment",
+				productName: "Shark Attack",
 				productVersion: "1.0",
 			}).then(function (instance) {
 				var canvas = instance.Module.canvas;
